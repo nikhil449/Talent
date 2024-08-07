@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>form</title>
+    </head>
+    <body>
+    <form>
+    <fieldset>
+         <legend>yours details</legend>
+        <lable>name</lable>
+        <input type ="text" name = "name"/>
+    </form>
+
+    <form action ="save.php" method="post">
+   
+        <lable>Email</lable>
+        <input type = "email" name ="email_in"/>
+    </fieldset>
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>yours reference</legend>
+        <lable>how did you here about us</lable>
+        <select name ="device">
+            <option value ="google">google</option>
+            <option value = "facebook">facebook</option>
+            <option value ="instagram">instagram</option>
+            <option value ="youtube">youtube</option>
+        </select><br/>
+
+    
+    </form>
+
+    <form>
+        <lable>Are you instrected to join camp</lable><br/>
+        <input type ="radio" name ="genre"
+        value ="yes" checked ="checked"/>
+        yes
+        <input type="radio" name ="genre"
+        value ="No"/>No
+        <input type ="radio" name="genre"
+        value ="maybe"/> maybe <br/>
+    </form>
+    <form>
+        <label>comments </label>
+        <textarea cols = "40" rows ="8">
+        </textarea></br>
+    </form>
+
+    <form>
+         <input type="checkbox" name ="genre"
+         value ="sign me up for email updates"/>sign me up for email updates<br/>
+         <input type ="button" value ="simple button" /><br/>
+    </fieldset>
+    </form>
+            
+    </body>
+</html>
