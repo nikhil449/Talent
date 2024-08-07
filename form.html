@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>form</title>
+    </head>
+    <body>
+    <h2>simple form</h2>
+    <form>
+        <input type = "text"/>
+        <button>save</button>
+    </form>
+    <h2>input type</h2>
+     <form>
+        <input type = "number"/>
+        <br/>
+        <input type = "password" />
+    </form>
+    <h2>Input type</h2>
+    <form>
+        <lable>number </lable>
+            <input type = "number"/><br/>
+            <lable>password</lable>
+            <input type = "password"/><br/>
+           
+            <label>textarea </label>
+            <textarea cols = "30" rows ="7">
+            </textarea></br>
+            
+            <lable>Radio button</lable>
+            <input type ="radio" name ="genre"
+            value ="rock" checked ="checked"/>
+            rock
+            <input type="radio" name ="genre"
+            value ="pop"/>
+            pop
+            <input type ="radio" name="genre"
+            value ="jazz"/> 
+            jazz 
+            <br/>
+        </form>
+
+        <lable>Radio button</lable>
+            <input type ="checkbox" name ="genre"
+            value ="rock" checked ="checked"/>
+            rock
+            <input type="checkbox" name ="genre"
+            value ="pop"/>pop
+            <input type ="checkbox" name="genre"
+            value ="jazz"/> jazz <br/>
+
+            <lable>drop down</lable>
+            <select name ="device">
+                <option value ="ipod">ipod</option>
+                <option value = "radio">radio</option>
+                <option value ="computer">computer</option>
+            </select><br/>
+
+            <lable>multi selection drop down</lable>
+            <select name ="device" multiple ="multiple" size ="2">
+
+                <option value ="ipod">ipod</option>
+                <option value = "radio">radio</option>
+                <option value ="computer">computer</option>
+
+            </select>
+            <br/>
+
+            <lable>file input</lable>
+            <input type ="file" name ="profile_pic"/>
+            <br/>
+            <lable>Date</lable>
+            <input type ="date" name = "dob"/>
+        </form>
+
+        <form action = "save.php" method ="post">
+            <fieldset>
+                <legend>contact details</legend>
+            <lable>Email</lable>
+            <input type = "email" name ="email_in"/>
+            <input type ="submit" value ="save"/>
+
+            <lable>url</lable>
+            <input type ="url" name ="web_link"/><br/>
+            <input type ="submit" value ="save"/>
+
+            <lable>search</lable>
+            <input type ="search" name ="search_box" /><br/>
+            <input type ="submit" value ="save"/>
+
+            <lable>placeholder</lable>
+            <lable>simple button</lable>
+            <input type ="button" value ="simple button" /><br/>
+            <input type ="submit" value ="save"/>
+            <input type ="image" src ="image.png" value ="image button"/><br/>
+            <input type ="submit" value ="save"/>
+
+            <lable>hidden input</lable>
+            <input type = "hidden" name ="search_box"
+            placeholder ="search here"/><br/>
+            <input type ="submit" value ="save"/>
+            </fieldset>
+        
+            
+        </form>
+    
+    </body>
+</html>
